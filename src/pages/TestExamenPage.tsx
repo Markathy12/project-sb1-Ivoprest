@@ -34,7 +34,7 @@ const TestExamenPage: React.FC = () => {
 
   useEffect(() => {
     document.title =
-      "Centre de Test et d’Examen - Ivoprest | Certifications internationales";
+      "Centre de Test et d’Examen - Esay Corporation | Certifications internationales";
     window.scrollTo({ top: 0, behavior: "auto" });
   }, []);
 
@@ -108,11 +108,11 @@ const TestExamenPage: React.FC = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl font-extrabold text-orange-600 mb-6 text-center">
+        <h2 className="text-3xl font-extrabold text-primary-600 mb-6 text-center">
           Un centre d’examen agréé et sécurisé
         </h2>
         <p className="text-gray-800 text-lg max-w-4xl mx-auto leading-relaxed">
-          <strong>IVOPREST</strong> est un centre homologué pour accueillir des
+          <strong>Esay Corporation</strong> est un centre homologué pour accueillir des
           examens officiels et certifiants. Profitez d’un environnement
           sécurisé, conforme aux standards internationaux, avec des équipements
           haut de gamme pour des conditions optimales.
@@ -136,7 +136,7 @@ const TestExamenPage: React.FC = () => {
               viewport={{ once: true }}
             >
               {/* ✅ Halo lumineux au survol */}
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-400/0 via-orange-400/10 to-orange-500/0 
+              <div className="absolute inset-0 bg-gradient-to-br from-orange-400/0 via-primary-400/10 to-primary-500/0 
                               opacity-0 hover:opacity-100 transition-opacity duration-500"></div>
 
               <img
@@ -145,7 +145,7 @@ const TestExamenPage: React.FC = () => {
                 className="h-20 object-contain mb-4 relative z-10"
                 loading="lazy"
               />
-              <h3 className="text-orange-600 text-lg font-bold mb-2 relative z-10">
+              <h3 className="text-primary-600 text-lg font-bold mb-2 relative z-10">
                 {cert.title}
               </h3>
               <p className="text-gray-700 relative z-10">{cert.description}</p>
@@ -166,13 +166,13 @@ const TestExamenPage: React.FC = () => {
         </motion.h2>
         <motion.button
           onClick={() => setIsModalOpen(true)}
-          className="inline-block bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold
-                     shadow-lg hover:bg-orange-700 transition-all relative overflow-hidden"
+          className="inline-block bg-primary-600 text-white px-8 py-4 rounded-full text-lg font-semibold
+                     shadow-lg hover:bg-primary-700 transition-all relative overflow-hidden"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
           <span className="relative z-10">S’inscrire maintenant</span>
-          <span className="absolute inset-0 bg-orange-500 opacity-0 hover:opacity-20 transition-opacity duration-300"></span>
+          <span className="absolute inset-0 bg-primary-500 opacity-0 hover:opacity-20 transition-opacity duration-300"></span>
         </motion.button>
       </section>
 
@@ -198,7 +198,7 @@ const TestExamenPage: React.FC = () => {
               >
                 ✕
               </button>
-              <h3 className="text-xl font-bold text-orange-600 mb-6 text-center">
+              <h3 className="text-xl font-bold text-primary-600 mb-6 text-center">
                 Formulaire d’inscription
               </h3>
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -209,7 +209,7 @@ const TestExamenPage: React.FC = () => {
                   onChange={handleChange}
                   placeholder="Votre nom complet"
                   required
-                  className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-600"
+                  className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-primary-600"
                 />
                 <input
                   type="email"
@@ -218,7 +218,7 @@ const TestExamenPage: React.FC = () => {
                   onChange={handleChange}
                   placeholder="Votre email"
                   required
-                  className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-600"
+                  className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-primary-600"
                 />
                 <input
                   type="tel"
@@ -227,14 +227,14 @@ const TestExamenPage: React.FC = () => {
                   onChange={handleChange}
                   placeholder="Votre téléphone"
                   required
-                  className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-600"
+                  className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-primary-600"
                 />
                 <select
                   name="exam"
                   value={formData.exam}
                   onChange={handleChange}
                   required
-                  className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-600"
+                  className="w-full border rounded-lg px-4 py-2 focus:ring-2 focus:ring-primary-600"
                 >
                   <option value="">Sélectionnez un examen</option>
                   <option value="Pearson VUE">Pearson VUE</option>
@@ -243,7 +243,7 @@ const TestExamenPage: React.FC = () => {
                 </select>
                 <button
                   type="submit"
-                  className="w-full bg-orange-600 text-white py-2 rounded-lg font-semibold hover:bg-orange-700 transition-colors"
+                  className="w-full bg-primary-600 text-white py-2 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
                 >
                   Envoyer
                 </button>

@@ -24,8 +24,8 @@ const Navbar: React.FC = () => {
     }`;
 
   const linkClass = `relative font-medium transition-colors duration-300 ${scrolled
-      ? "text-gray-800 hover:text-orange-600"
-      : "text-white hover:text-orange-300"
+      ? "text-gray-800 hover:text-primary-600"
+      : "text-white hover:text-primary-300"
     }`;
 
   return (
@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         <div className="container mx-auto px-4 flex justify-between items-center">
           {/* Logo */}
           <button onClick={() => navigate("/")} className="focus:outline-none">
-            <img src="/Ivoprest-logo.png" alt="Ivoprest" className="h-12" />
+            <img src="/LOGO-ESAY.png" alt="Ivoprest" className="h-12" />
           </button>
 
           {/* Desktop Navigation */}
@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
             <Link to="/" className={linkClass}>
               Accueil
               {location.pathname === "/" && (
-                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-orange-600 rounded-full animate-pulse" />
+                <span className="absolute left-0 bottom-0 w-full h-0.5 bg-primary-500 rounded-full animate-pulse" />
               )}
             </Link>
 
@@ -98,7 +98,7 @@ const Navbar: React.FC = () => {
                       <Link
                         key={i}
                         to={item.to}
-                        className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-600"
+                        className="block px-4 py-2 text-gray-700 hover:bg-primary-50 hover:text-primary-600"
                       >
                         {item.label}
                       </Link>
@@ -147,7 +147,7 @@ const Navbar: React.FC = () => {
                       <Link
                         key={i}
                         to={item.to}
-                        className="block px-4 py-2 text-gray-700 hover:bg-orange-50 hover:text-orange-600"
+                        className="block px-4 py-2 text-gray-700 hover:bg-primary-50 hover:text-primary-600"
                       >
                         {item.label}
                       </Link>
@@ -163,7 +163,7 @@ const Navbar: React.FC = () => {
 
             <button
               onClick={() => setLanguage(language === "fr" ? "en" : "fr")}
-              className="flex items-center px-3 py-1 rounded-full bg-orange-100 text-orange-700 hover:bg-orange-200"
+              className="flex items-center px-3 py-1 rounded-full bg-secondary-100 text-secondary-600 hover:bg-secondary-200"
             >
               <Globe size={16} className="mr-1" />{" "}
               {language === "fr" ? "EN" : "FR"}
@@ -211,28 +211,28 @@ const Navbar: React.FC = () => {
                   <Link
                     to="/services/securite-reseaux"
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-700 hover:text-orange-600"
+                    className="text-gray-700 hover:text-primary-600"
                   >
                     Sécurité des réseaux
                   </Link>
                   <Link
                     to="/services/sauvegarde-replication"
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-700 hover:text-orange-600"
+                    className="text-gray-700 hover:text-primary-600"
                   >
                     Sauvegarde & réplication
                   </Link>
                   <Link
                     to="/services/securite-donnees"
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-700 hover:text-orange-600"
+                    className="text-gray-700 hover:text-primary-600"
                   >
                     Sécurité des données
                   </Link>
                   <Link
                     to="/services/securite-applications"
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-700 hover:text-orange-600"
+                    className="text-gray-700 hover:text-primary-600"
                   >
                     Sécurité Managée
                   </Link>
@@ -252,28 +252,28 @@ const Navbar: React.FC = () => {
                   <Link
                     to="/prestations/integration-solution"
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-700 hover:text-orange-600"
+                    className="text-gray-700 hover:text-primary-600"
                   >
                     Intégration de solution
                   </Link>
                   <Link
                     to="/centre-formation"
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-700 hover:text-orange-600"
+                    className="text-gray-700 hover:text-primary-600"
                   >
                     Centre de formation
                   </Link>
                   <Link
                     to="/prestations/audit-si"
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-700 hover:text-orange-600"
+                    className="text-gray-700 hover:text-primary-600"
                   >
                     Audit informatique
                   </Link>
                   <Link
                     to="/prestations/test-examen"
                     onClick={() => setIsOpen(false)}
-                    className="text-gray-700 hover:text-orange-600"
+                    className="text-gray-700 hover:text-primary-600"
                   >
                     Centre d'examen
                   </Link>
@@ -293,7 +293,7 @@ const Navbar: React.FC = () => {
                   setLanguage(language === "fr" ? "en" : "fr");
                   setIsOpen(false);
                 }}
-                className="flex items-center px-3 py-2 rounded-full bg-orange-100 text-orange-700 w-fit"
+                className="flex items-center px-3 py-2 rounded-full bg-primary-100 text-primary-700 w-fit"
               >
                 <Globe size={16} className="mr-1" />{" "}
                 {language === "fr" ? "EN" : "FR"}

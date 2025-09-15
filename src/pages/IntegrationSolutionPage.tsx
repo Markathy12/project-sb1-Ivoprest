@@ -61,7 +61,7 @@ const IntegrationSolutionPage: React.FC = () => {
       <FadeInUpSection className="py-24 px-6 max-w-7xl mx-auto">
         {/* Titre */}
         <div className="text-center mb-24">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-orange-600 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-primary-600 tracking-tight">
             Nos axes d’accompagnement
           </h2>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
@@ -220,7 +220,7 @@ const IntegrationSolutionPage: React.FC = () => {
       {/* NOS EXPERTISES */}
       <FadeInUpSection className="bg-white dark:bg-gray-900 py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl font-extrabold text-center text-orange-600 mb-16 tracking-wide">
+          <h2 className="text-4xl font-extrabold text-center text-primary-600 mb-16 tracking-wide">
             Notre Expertise Inégalée
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12 text-gray-700 dark:text-gray-300 text-lg font-semibold leading-relaxed">
@@ -236,17 +236,17 @@ const IntegrationSolutionPage: React.FC = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.15, duration: 0.6, type: "spring", stiffness: 100 }}
-                className="flex items-start space-x-5 bg-orange-50 dark:bg-orange-900 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow cursor-pointer group"
+                className="flex items-start space-x-5 bg-primary-50 dark:bg-primary-900 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow cursor-pointer group"
                 role="listitem"
                 aria-label={item}
                 tabIndex={0}
               >
                 <CheckCircle
                   size={32}
-                  className="flex-shrink-0 text-orange-600 group-hover:text-orange-700 transition-colors duration-300"
+                  className="flex-shrink-0 text-primary-600 group-hover:text-primary-700 transition-colors duration-300"
                   aria-hidden="true"
                 />
-                <span className="text-gray-900 dark:text-gray-100 font-semibold text-lg leading-snug group-hover:text-orange-700 transition-colors duration-300">
+                <span className="text-gray-900 dark:text-gray-100 font-semibold text-lg leading-snug group-hover:text-primary-700 transition-colors duration-300">
                   {item}
                 </span>
               </motion.li>
@@ -258,7 +258,7 @@ const IntegrationSolutionPage: React.FC = () => {
       {/* PARTENAIRES */}
       <FadeInUpSection className="bg-gray-100 dark:bg-gray-800 py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-orange-600">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-primary-600">
             Nos partenaires technologiques
           </h2>
           <p className="text-gray-700 dark:text-gray-300 mb-12 max-w-3xl mx-auto text-lg">
@@ -289,7 +289,7 @@ const IntegrationSolutionPage: React.FC = () => {
         <Link
           to="/docs/catalogue-ivoprest.pdf"
           target="_blank"
-          className="inline-flex items-center gap-3 px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white font-semibold rounded-lg transition"
+          className="inline-flex items-center gap-3 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition"
         >
           <Download size={20} />
           Télécharger la brochure

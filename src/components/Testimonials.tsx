@@ -62,7 +62,7 @@ const Testimonials: React.FC = () => {
         {/* Titre */}
         <div className="text-center mb-12">
           <motion.h2
-            className="text-3xl md:text-4xl font-bold text-blue-900 mb-4"
+            className="text-3xl md:text-4xl font-bold text-primary-900 mb-4"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -110,13 +110,13 @@ const Testimonials: React.FC = () => {
                   alt={testimonials[activeIndex].author}
                   className="w-16 h-16 rounded-full object-cover mb-3 border-4 border-white shadow-md"
                 />
-                <h4 className="text-lg font-bold text-blue-900">
+                <h4 className="text-lg font-bold text-primary-900">
                   {testimonials[activeIndex].author}
                 </h4>
                 <p className="text-gray-600 text-sm">
                   {testimonials[activeIndex].position}
                 </p>
-                <p className="text-blue-600 text-sm">
+                <p className="text-primary-600 text-sm">
                   {testimonials[activeIndex].company}
                 </p>
 
@@ -169,7 +169,7 @@ const Testimonials: React.FC = () => {
               key={i}
               className="bg-white/80 backdrop-blur-sm rounded-lg shadow-md p-6 text-center border border-white/50 hover:scale-105 transition-transform"
             >
-              <div className="text-3xl font-bold text-blue-600 mb-2">
+              <div className="text-3xl font-bold text-primary-600 mb-2">
                 {stat.value}
               </div>
               <div className="text-gray-600">{stat.label}</div>

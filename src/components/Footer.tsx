@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-gray-300 pt-16 pb-8 overflow-hidden">
       {/* ✅ Effet lumineux subtil */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-500 via-pink-500 to-orange-500 animate-[pulse_4s_infinite]" />
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary-500 via-pink-500 to-primary-500 animate-[pulse_4s_infinite]" />
 
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
@@ -24,18 +24,18 @@ const Footer: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <img src="/Ivoprest-logo.png" alt="Ivoprest" className="h-12 mb-4" />
+            <img src="/LOGO-ESAY.png" alt="Ivoprest" className="h-12 mb-4" />
             <p className="text-gray-400 text-sm mb-4 leading-relaxed">
               Solutions de sécurité et de sauvegarde des données pour entreprises
               modernes.
             </p>
             <div className="space-y-2">
               <div className="flex items-center">
-                <Mail size={16} className="text-orange-400 mr-2" />
-                <span>contact@ivoprest.com</span>
+                <Mail size={16} className="text-primary-400 mr-2" />
+                <span>contact@esay.ci</span>
               </div>
               <div className="flex items-center">
-                <Phone size={16} className="text-orange-400 mr-2" />
+                <Phone size={16} className="text-primary-400 mr-2" />
                 <span>+33 (0)1 23 45 67 89</span>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
                   key={i}
                   href="#"
                   whileHover={{ scale: 1.1, rotate: 5 }}
-                  className="bg-gray-700 hover:bg-orange-600 w-9 h-9 rounded-full flex items-center justify-center transition-colors"
+                  className="bg-gray-700 hover:bg-primary-600 w-9 h-9 rounded-full flex items-center justify-center transition-colors"
                 >
                   <Icon size={16} className="text-white" />
                 </motion.a>
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
                 <li key={i}>
                   <Link
                     to="/#services"
-                    className="hover:text-orange-400 transition-colors"
+                    className="hover:text-primary-400 transition-colors"
                   >
                     {service}
                   </Link>
@@ -100,7 +100,7 @@ const Footer: React.FC = () => {
                 <li key={i}>
                   <Link
                     to="/formation"
-                    className="hover:text-orange-400 transition-colors"
+                    className="hover:text-primary-400 transition-colors"
                   >
                     {formation}
                   </Link>
@@ -125,9 +125,9 @@ const Footer: React.FC = () => {
               <input
                 type="email"
                 placeholder="Votre email"
-                className="w-full px-3 py-2 rounded-lg bg-gray-800 text-white text-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="w-full px-3 py-2 rounded-lg bg-gray-800 text-white text-sm focus:outline-none focus:ring-2 focus:ring-primary-500"
               />
-              <button className="bg-orange-600 hover:bg-orange-500 px-4 py-2 rounded-lg text-white text-sm">
+              <button className="bg-primary-600 hover:bg-primary-500 px-4 py-2 rounded-lg text-white text-sm">
                 OK
               </button>
             </form>
@@ -136,15 +136,15 @@ const Footer: React.FC = () => {
 
         {/* ✅ Bas du footer */}
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
-          <div>&copy; {new Date().getFullYear()} Ivoprest. Tous droits réservés.</div>
+          <div>&copy; {new Date().getFullYear()} Esay-Corporation. Tous droits réservés.</div>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-orange-400">
+            <a href="#" className="hover:text-primary-400">
               Politique de Confidentialité
             </a>
-            <a href="#" className="hover:text-orange-400">
+            <a href="#" className="hover:text-primary-400">
               Conditions d’utilisation
             </a>
-            <a href="#" className="hover:text-orange-400 flex items-center">
+            <a href="#" className="hover:text-primary-400 flex items-center">
               <ExternalLink size={14} className="mr-1" /> Plan du site
             </a>
           </div>

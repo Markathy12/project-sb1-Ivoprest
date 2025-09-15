@@ -105,18 +105,18 @@ const HeroSection: React.FC = () => {
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
             Expertise<br />
-            <span className="text-orange-500">Spécialisation</span><br />
+            <span className="text-primary-500">Spécialisation</span><br />
             Expérience
           </h1>
 
           <p className="text-lg text-gray-300 mb-10 max-w-lg">
-            Ivoprest protège votre entreprise contre les cybermenaces avec nos
+            Esay Coporation protège votre entreprise contre les cybermenaces avec nos
             services de sécurité managés 24/7.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center md:justify-start">
             <SmoothScroll
               to="services"
-              className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-10 rounded-lg shadow-lg transition transform hover:scale-105"
+              className="bg-primary-500 hover:bg-primary-600 text-white font-bold py-4 px-10 rounded-lg shadow-lg transition transform hover:scale-105"
             >
               <Shield size={22} className="inline-block mr-3" />
               Nos Services

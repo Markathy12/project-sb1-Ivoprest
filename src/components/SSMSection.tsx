@@ -81,7 +81,7 @@ const SSMSection: React.FC = () => {
                 className="flex items-center gap-3 bg-white rounded-lg p-3 shadow hover:shadow-md transition"
                 whileHover={{ scale: 1.05 }}
               >
-                <item.icon className="text-orange-500 w-6 h-6" />
+                <item.icon className="text-primary-500 w-6 h-6" />
                 <span className="text-gray-700 font-medium">{item.text}</span>
               </motion.div>
             ))}
@@ -89,8 +89,8 @@ const SSMSection: React.FC = () => {
 
           <button
             onClick={() => setIsModalOpen(true)}
-            className="mt-6 bg-orange-600 text-white px-10 py-4 rounded-full font-semibold text-lg shadow-md 
-                       hover:bg-orange-700 transition-transform transform hover:scale-105"
+            className="mt-6 bg-primary-600 text-white px-10 py-4 rounded-full font-semibold text-lg shadow-md 
+                       hover:bg-primary-700 transition-transform transform hover:scale-105"
           >
             Demander une présentation
           </button>
@@ -129,7 +129,7 @@ const SSMSection: React.FC = () => {
             >
               ✕
             </button>
-            <h3 className="text-xl font-bold text-orange-600 mb-6 text-center">
+            <h3 className="text-xl font-bold text-primary-600 mb-6 text-center">
               Demander une présentation SSM
             </h3>
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -140,7 +140,7 @@ const SSMSection: React.FC = () => {
                 onChange={handleChange}
                 placeholder="Votre nom complet"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-600"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary-600"
               />
               <input
                 type="email"
@@ -149,7 +149,7 @@ const SSMSection: React.FC = () => {
                 onChange={handleChange}
                 placeholder="Votre email"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-600"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary-600"
               />
               <input
                 type="tel"
@@ -158,7 +158,7 @@ const SSMSection: React.FC = () => {
                 onChange={handleChange}
                 placeholder="Votre téléphone"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-600"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary-600"
               />
               <input
                 type="text"
@@ -166,18 +166,18 @@ const SSMSection: React.FC = () => {
                 value={formData.company}
                 onChange={handleChange}
                 placeholder="Nom de votre entreprise (facultatif)"
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-600"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary-600"
               />
               <input
                 type="date"
                 name="date"
                 value={formData.date}
                 onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-600"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary-600"
               />
               <button
                 type="submit"
-                className="w-full bg-orange-600 text-white py-2 rounded-lg font-semibold hover:bg-orange-700 transition-colors flex items-center justify-center"
+                className="w-full bg-primary-600 text-white py-2 rounded-lg font-semibold hover:bg-primary-700 transition-colors flex items-center justify-center"
               >
                 <Send size={18} className="mr-2" />
                 Envoyer la demande

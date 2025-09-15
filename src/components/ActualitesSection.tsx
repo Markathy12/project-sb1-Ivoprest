@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const news = [
   {
-    title: "Ivoprest ouvre un nouveau centre de formation à Abidjan",
+    title: "Esay Corporation ouvre un nouveau centre de formation à Abidjan",
     date: "Juillet 2025",
     excerpt:
       "Un nouveau centre ultra-moderne pour renforcer les compétences en cybersécurité et systèmes d'information.",
@@ -14,7 +14,7 @@ const news = [
     title: "Partenariat stratégique avec Microsoft Afrique",
     date: "Juin 2025",
     excerpt:
-      "Ivoprest devient partenaire Gold pour la sécurité cloud et les solutions Microsoft 365.",
+      "Esay Corporation devient partenaire Gold pour la sécurité cloud et les solutions Microsoft 365.",
     imageUrl: "/images/news 2.jpg",
   },
   {
@@ -67,7 +67,7 @@ const ActualitesSection: React.FC = () => {
     <section className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-6 max-w-6xl text-center">
         <motion.h2
-          className="text-4xl font-bold text-orange-600 mb-12"
+          className="text-4xl font-bold text-primary-600 mb-12"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -113,7 +113,7 @@ const ActualitesSection: React.FC = () => {
                 <p className="text-gray-700 dark:text-gray-300 text-sm line-clamp-2 mb-4">
                   {item.excerpt}
                 </p>
-                <button className="text-orange-600 font-semibold text-sm hover:underline">
+                <button className="text-primary-600 font-semibold text-sm hover:underline">
                   Lire la suite →
                 </button>
               </div>
@@ -125,7 +125,7 @@ const ActualitesSection: React.FC = () => {
         <div className="mt-10">
           <Link
             to="/blog"
-            className="inline-block bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-orange-700 transition"
+            className="inline-block bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-primary-700 transition"
           >
             Voir toutes les actualités
           </Link>

@@ -34,7 +34,7 @@ const TrainingCenterPage: React.FC = () => {
             (EC-Council, PECB, Pearson Vue, FDFP). Développez vos compétences
             pour un avenir numérique sécurisé.
           </p>
-          <button className="px-6 py-3 bg-[#F97316] text-white font-semibold rounded-2xl shadow hover:bg-orange-600 transition">
+          <button className="px-6 py-3 bg-primary-500 text-white font-semibold rounded-2xl shadow hover:bg-primary-600 transition">
             Découvrir nos formations
           </button>
         </motion.div>
@@ -199,7 +199,7 @@ const TrainingCenterPage: React.FC = () => {
               />
               {/* Badge disponibilité */}
               <span
-                className={`absolute top-1 right-1 w-4 h-4 rounded-full border border-white ${course.available ? "bg-orange-500" : "bg-gray-400"
+                className={`absolute top-1 right-1 w-4 h-4 rounded-full border border-white ${course.available ? "bg-primary-500" : "bg-gray-400"
                   }`}
                 title={course.available ? "Disponible" : "Non disponible"}
               ></span>
@@ -248,7 +248,7 @@ const TrainingCenterPage: React.FC = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      📘 Découvrez notre <span className="text-orange-500">Catalogue de Formation</span>
+      📘 Découvrez notre <span className="text-secondary-500">Catalogue de Formation</span>
     </motion.h2>
     <motion.p
       className="text-lg text-gray-200 mb-10"
@@ -347,7 +347,7 @@ const TrainingCenterPage: React.FC = () => {
 
 
       {/* CTA */}
-      <section className="py-20 px-6 bg-orange-500 text-center text-white">
+      <section className="py-20 px-6 bg-primary-500 text-center text-white">
         <h2 className="text-4xl font-extrabold mb-6">
           Lancez vous dès aujourd’hui
         </h2>

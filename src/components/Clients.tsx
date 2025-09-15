@@ -22,7 +22,7 @@ const Clients: React.FC = () => {
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold text-center text-orange-600 mb-10"
+          className="text-3xl md:text-4xl font-bold text-center text-primary-600 mb-10"
         >
           Ils nous font confiance
         </motion.h2>

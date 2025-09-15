@@ -106,8 +106,8 @@ export default function AuditInformatiquePage() {
           ].map((s, i) => (
             <motion.div key={i} className={cardBase} variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }}>
               <div className="flex items-start gap-4">
-                <div className="shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center" style={{ backgroundColor: `${primary}0D` }}>
-                  <s.icon className="w-6 h-6" style={{ color: primary }} />
+                <div className="shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center bg-primary-100">
+                  <s.icon className="w-6 h-6 text-primary-500" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">{s.title}</h3>
@@ -118,7 +118,7 @@ export default function AuditInformatiquePage() {
           ))}
         </div>
       </Section>
-      
+
       {/* SSM SECTION */}
       <SSMSection />
 
@@ -138,11 +138,11 @@ export default function AuditInformatiquePage() {
                 { step: "04", title: "Suivi & Amélioration", desc: "Accompagnement post-audit et recommandations évolutives.", icon: TimerReset },
               ].map((it, idx) => (
                 <div key={idx} className={`${cardBase} flex items-center gap-4`}>
-                  <div className="w-12 h-12 rounded-2xl flex items-center justify-center text-white font-bold" style={{ backgroundColor: primary }}>
+                  <div className="w-12 h-12 rounded-2xl flex items-center justify-center text-white font-bold bg-primary-500">
                     {it.step}
                   </div>
                   <div className="grid grid-cols-[auto_1fr] gap-3 items-start">
-                    <it.icon className="w-5 h-5 mt-1" style={{ color: primary }} />
+                    <it.icon className="w-5 h-5 mt-1 text-primary-500" />
                     <div>
                       <h3 className="font-semibold">{it.title}</h3>
                       <p className="text-sm text-gray-600 mt-1">{it.desc}</p>
@@ -167,35 +167,39 @@ export default function AuditInformatiquePage() {
               Contactez nos experts pour un audit personnalisé ou une évaluation gratuite.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href="mailto:contact@votre-domaine.com" className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl text-white font-semibold" style={{ backgroundColor: primary }}>
+              <a href="mailto:contact@votre-domaine.com" className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl text-white font-semibold bg-primary-500">
                 <Mail className="w-4 h-4" /> Envoyer un e-mail
               </a>
-              <a href="tel:+225000000000" className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl border font-semibold" style={{ borderColor: primary, color: primary }}>
+              <a
+                href="tel:+225000000000"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-2xl border border-primary-500 text-primary-500 font-semibold"
+              >
                 <PhoneCall className="w-4 h-4" /> Appeler un expert
               </a>
+
             </div>
           </div>
           <div className={`${cardBase} space-y-3`}>
             <div className="grid grid-cols-2 gap-3">
               <div className="p-4 rounded-xl bg-gray-50">
                 <div className="text-xs text-gray-500">Délai audit</div>
-                <div className="text-2xl font-extrabold" style={{ color: primary }}>2–6 semaines</div>
+                <div className="text-2xl font-extrabold text-primary-500">2–6 semaines</div>
               </div>
               <div className="p-4 rounded-xl bg-gray-50">
                 <div className="text-xs text-gray-500">Couverture</div>
-                <div className="text-2xl font-extrabold" style={{ color: primary }}>Complet</div>
+                <div className="text-2xl font-extrabold text-primary-500">Complet</div>
               </div>
               <div className="p-4 rounded-xl bg-gray-50">
                 <div className="text-xs text-gray-500">Conformité</div>
-                <div className="text-2xl font-extrabold" style={{ color: primary }}>ISO / RGPD</div>
+                <div className="text-2xl font-extrabold text-primary-500">ISO / RGPD</div>
               </div>
               <div className="p-4 rounded-xl bg-gray-50">
                 <div className="text-xs text-gray-500">Rapport</div>
-                <div className="text-2xl font-extrabold" style={{ color: primary }}>Priorisé</div>
+                <div className="text-2xl font-extrabold text-primary-500">Priorisé</div>
               </div>
             </div>
             <div className="flex items-start gap-3 text-sm text-gray-600">
-              <AlertTriangle className="w-4 h-4 mt-1" style={{ color: primary }} />
+              <AlertTriangle className="w-4 h-4 mt-1 text-primary-500" />
               <p>
                 Bonnes pratiques : segmentation réseau, moindre privilège, MFA, sauvegardes testées, suivi des vulnérabilités.
               </p>

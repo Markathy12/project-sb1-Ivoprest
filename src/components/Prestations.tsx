@@ -87,14 +87,14 @@ const Prestations: React.FC = () => {
   return (
     <section className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4 max-w-7xl">
-        <h2 className="text-4xl font-extrabold text-orange-600 mb-12 text-center">
+        <h2 className="text-4xl font-extrabold text-primary-600 mb-12 text-center">
           Nos Prestations
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-20 justify-center">
           {prestations.map((prestation, index) => (
             <motion.article
               key={index}
-              className="w-80 rounded-xl shadow-lg bg-white overflow-hidden cursor-pointer hover:shadow-orange-200 transition-all duration-300"
+              className="w-80 rounded-xl shadow-lg bg-white overflow-hidden cursor-pointer hover:shadow-primary-200 transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               initial="hidden"
               whileInView="visible"
@@ -110,7 +110,7 @@ const Prestations: React.FC = () => {
                     loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                   />
-                  <div className="absolute top-4 left-4 bg-orange-600 rounded-full p-4 shadow-lg">
+                  <div className="absolute top-4 left-4 bg-primary-600 rounded-full p-4 shadow-lg">
                     {prestation.icon}
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -122,9 +122,9 @@ const Prestations: React.FC = () => {
                   <p className="text-gray-700 mb-4 line-clamp-3">
                     {prestation.description}
                   </p>
-                  <span className="inline-block mt-4 text-orange-600 font-semibold relative group">
+                  <span className="inline-block mt-4 text-primary-600 font-semibold relative group">
                     En savoir plus →
-                    <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-orange-600 transition-all group-hover:w-full"></span>
+                    <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-primary-600 transition-all group-hover:w-full"></span>
                   </span>
                 </div>
               </Link>
