@@ -142,13 +142,13 @@ const SecurityNetworksPage: React.FC = () => {
                 </h2>
 
                 <p className="text-base lg:text-lg text-slate-600 mb-6">
-                  Ivoprest déploie des solutions de sécurité réseau robustes
+                  <strong>Esay Corporation</strong> déploie des solutions de sécurité réseau robustes
                   grâce à ses partenaires stratégiques :{" "}
-                  <strong className="text-orange-600"> Fortinet</strong> pour le
+                  <strong className="text-primary-600"> Fortinet</strong> pour le
                   pare-feu nouvelle génération,{" "}
-                  <strong className="text-orange-600"> Wallix</strong> pour la
+                  <strong className="text-primary-600"> Wallix</strong> pour la
                   gestion des accès à privilèges, et{" "}
-                  <strong className="text-orange-600">Sophos</strong> pour la
+                  <strong className="text-primary-600">Sophos</strong> pour la
                   détection intelligente des menaces.
                 </p>
 
@@ -544,11 +544,11 @@ const SecurityNetworksPage: React.FC = () => {
         custom={8}
         variants={fadeInUpVariant}
       >
-        <h2 className="text-4xl font-bold text-orange-600 mb-8">
+        <h2 className="text-4xl font-bold text-primary-600 mb-8">
           Prêt à sécuriser vos données ?
         </h2>
         <button
-          className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-12 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-orange-400"
+          className="bg-primary-600 hover:bg-primary-700 text-white font-bold py-4 px-12 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary-400"
           aria-label="Demander un devis de sécurité des données"
         >
           Demander un devis

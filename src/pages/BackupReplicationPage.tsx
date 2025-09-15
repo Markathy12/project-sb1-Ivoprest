@@ -35,7 +35,7 @@ const BackupReplicationPage = () => {
         <div className="relative h-full flex items-center justify-center text-white">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <h1 className="text-5xl font-bold mb-8 leading-tight">
-              Sauvegarde & <span className="text-orange-500">Réplication</span>
+              Sauvegarde & <span className="text-secondary-500">Réplication</span>
             </h1>
             <p className="text-xl mb-12 opacity-90 max-w-3xl mx-auto">
               Des solutions fiables pour protéger vos données et assurer la
@@ -65,13 +65,13 @@ const BackupReplicationPage = () => {
                 </p>
                 <div className="grid grid-cols-2 gap-6 mb-8">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-orange-600">
+                    <div className="text-3xl font-bold text-primary-600">
                       99.9%
                     </div>
                     <div className="text-sm text-slate-600">Disponibilité</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-orange-600">
+                    <div className="text-3xl font-bold text-primary-600">
                       15min
                     </div>
                     <div className="text-sm text-slate-600">
@@ -195,7 +195,7 @@ const BackupReplicationPage = () => {
               Sauvegarde et réplication fiables
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Ivoprest fournit des solutions complètes pour protéger vos
+              <strong>Esay Corporation</strong> fournit des solutions complètes pour protéger vos
               données, assurer leur continuité et garantir la résilience de vos
               activités.
             </p>
@@ -434,11 +434,11 @@ const BackupReplicationPage = () => {
 
       {/* CTA */}
       <section className="py-20 px-6 text-center max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-orange-600 mb-8">
+        <h2 className="text-4xl font-bold text-primary-600 mb-8">
           Prêt à sécuriser vos données ?
         </h2>
         <button
-          className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-12 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-orange-400"
+          className="bg-primary-600 hover:bg-primary-700 text-white font-bold py-4 px-12 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary-400"
           aria-label="Demander un devis de sécurité des données"
         >
           Demander un devis

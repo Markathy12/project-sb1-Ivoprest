@@ -67,7 +67,7 @@ const SecurityApplicationsPage = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-6 max-w-5xl mx-auto">
           <h1 className="text-5xl sm:text-6xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
-            Sécurisez vos endpoints avec Ivoprest
+            Sécurisez vos endpoints
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl drop-shadow-md">
             Antivirus nouvelle génération, surveillance, correctifs automatiques
@@ -371,7 +371,7 @@ const SecurityApplicationsPage = () => {
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-orange-600 to-orange-500 text-white py-12">
+      <section className="bg-gradient-to-r from-primary-600 to-primary-500 text-white py-12">
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center">
           {[
             {
@@ -500,10 +500,10 @@ const SecurityApplicationsPage = () => {
 
 
       <section className="py-20 px-6 text-center max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-orange-600 mb-8">
+        <h2 className="text-4xl font-bold text-primary-600 mb-8">
           Prêt à sécuriser vos endpoints ?
         </h2>
-        <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-12 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-orange-400">
+        <button className="bg-primary-600 hover:bg-primary-700 text-white font-bold py-4 px-12 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary-400">
           Demander un audit
         </button>
       </section>

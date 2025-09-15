@@ -90,7 +90,7 @@ const DataSecurityPage = () => {
             className="text-5xl sm:text-6xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg"
             tabIndex={0}
           >
-            Protégez vos données critiques avec Ivoprest
+            Protégez vos données critiques
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl drop-shadow-md">
             Audit, protection, supervision, conformité et support — une approche
@@ -126,7 +126,7 @@ const DataSecurityPage = () => {
                 </p>
                 <div className="grid grid-cols-2 gap-6 mb-8">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-orange-600">
+                    <div className="text-3xl font-bold text-primary-600">
                       AES-256
                     </div>
                     <div className="text-sm text-slate-600">
@@ -134,7 +134,7 @@ const DataSecurityPage = () => {
                     </div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-orange-600">
+                    <div className="text-3xl font-bold text-primary-600">
                       MFA & IAM
                     </div>
                     <div className="text-sm text-slate-600">
@@ -258,7 +258,7 @@ const DataSecurityPage = () => {
               Sécurisez vos données et renforcez votre résilience
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Ivoprest propose des solutions complètes pour protéger vos données
+              <strong>Esay Corporation</strong> propose des solutions complètes pour protéger vos données
               contre les menaces, garantir leur intégrité et assurer la
               continuité de vos activités.
             </p>
@@ -495,11 +495,11 @@ const DataSecurityPage = () => {
 
       {/* CTA */}
       <section className="py-20 px-6 text-center max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-orange-600 mb-8">
+        <h2 className="text-4xl font-bold text-primary-600 mb-8">
           Prêt à sécuriser vos données ?
         </h2>
         <button
-          className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-12 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-orange-400"
+          className="bg-primary-600 hover:bg-primary-700 text-white font-bold py-4 px-12 rounded-xl text-lg shadow-lg transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary-400"
           aria-label="Demander un devis de sécurité des données"
         >
           Demander un devis
