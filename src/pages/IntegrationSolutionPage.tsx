@@ -23,11 +23,11 @@ const FadeInUpSection: React.FC<FadeInUpSectionProps> = ({ children, className, 
 );
 
 const expertises = [
-  "Infrastructure réseau sécurisée",
-  "Solutions Cloud hybrides",
-  "Systèmes de sauvegarde & PRA",
-  "Protection des accès & identités",
-  "Sécurisation des endpoints",
+  "Compréhension du besoin client",
+  "Analyse du besoin technique",
+  "Proposition de la solution adaptée",
+  " implémentation de la solution",
+  "Assistance et maintenance",
 ];
 
 const partenaires = [
@@ -142,7 +142,7 @@ const IntegrationSolutionPage: React.FC = () => {
                 <div className="p-4 rounded-xl bg-red-50 border-l-4 border-red-500 flex items-start gap-3 mt-4">
                   <span className="text-red-500 text-2xl">⚠️</span>
                   <p className="text-gray-700 dark:text-gray-200 font-semibold leading-relaxed">
-                    Défi : Une panne ou un ransomware peut effacer vos données vitales.
+                    Défi : Une panne peut rendre vos données inaccessibles.
                   </p>
                 </div>
 
