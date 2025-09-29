@@ -76,7 +76,7 @@ const IntegrationSolutionPage: React.FC = () => {
             <div className="flex flex-col justify-between h-full space-y-6">
               <div>
                 <h3 className="text-3xl font-bold text-gray-900 dark:text-white flex items-center gap-3">
-                   Sécurité des réseaux
+                  Sécurité des réseaux
                 </h3>
 
                 <div className="p-4 rounded-xl bg-red-50 border-l-4 border-red-500 flex items-start gap-3 mt-4">
@@ -216,7 +216,7 @@ const IntegrationSolutionPage: React.FC = () => {
           </div>
         </div>
       </FadeInUpSection>
-      
+
       {/* NOS EXPERTISES */}
       <FadeInUpSection className="bg-white dark:bg-gray-900 py-20">
         <div className="max-w-7xl mx-auto px-6">
