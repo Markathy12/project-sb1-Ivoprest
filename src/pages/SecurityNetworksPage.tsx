@@ -529,11 +529,11 @@ const SecurityNetworksPage: React.FC = () => {
                 alt={alt}
                 className="max-h-16 mx-auto filter grayscale opacity-70 hover:filter-none hover:opacity-100 transition duration-300"
                 loading="lazy"
-              />
-            ))}
+              /> 
+            ))} 
           </div>
         </div>
-      </section>
+      </section> 
 
       {/* CTA */}
       <motion.section
