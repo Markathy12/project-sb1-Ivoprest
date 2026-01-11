@@ -145,12 +145,14 @@ const TrainingCenterPage: React.FC = () => {
       {
         title: "Formations Certifiantes",
         desc: "Préparez vos certifications internationales en cybersécurité et IT. Des cours intensifs menant à l'obtention de titres reconnus mondialement.",
+        link: "/services/formations-certifiantes",
         img: "/images/formation-slide3.jpg",
         icon: <CheckCircle2 className="w-8 h-8" />,
         color: "text-blue-500", // Utiliser la couleur primaire
       },
       {
         title: "Ateliers Pratiques (Labs)",
+        link: "/services/ateliers-pratiques",
         desc: "Mettez en pratique vos compétences dans nos labs spécialisés. Apprentissage par l'action sur des scénarios réels et des plateformes dédiées.",
         img: "/images/workshop.jpg",
         icon: <Users className="w-8 h-8" />,
@@ -158,6 +160,7 @@ const TrainingCenterPage: React.FC = () => {
       },
       {
         title: "Formations en Entreprise (Sur Mesure)",
+        link: "/services/formations-sur-mesure",
         desc: "Programmes personnalisés pour renforcer les compétences de vos équipes. Contenu adapté, délivré sur site ou à distance.",
         img: "/images/team-training.jpg",
         icon: <Briefcase className="w-8 h-8" />,
@@ -330,10 +333,10 @@ const TrainingCenterPage: React.FC = () => {
               transition={{ duration: 0.7, delay: 0.2 }}
             >
               <h2 className="text-3xl font-extrabold text-gray-900 mb-4">
-                Accédez à la source : Téléchargez notre <span className="text-primary-500">Catalogue 2024</span>
+                Accédez à la source : Téléchargez notre <span className="text-primary-500">Catalogue 2026</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Obtenez le **guide complet** de nos formations certifiantes. Détails des modules, prérequis, tarifs, et dates de sessions, le tout résumé dans un document pratique.
+                Obtenez le guide complet de nos formations certifiantes. Détails des modules, prérequis, tarifs, et dates de sessions, le tout résumé dans un document pratique.
               </p>
 
               <motion.a

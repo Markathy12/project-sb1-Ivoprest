@@ -505,33 +505,6 @@ const SecurityNetworksPage: React.FC = () => {
               />
             ))}
           </div>
-
-          {/* Clients */}
-          <h2 className="text-4xl font-bold text-center text-slate-800 mb-8">
-            Nos clients
-          </h2>
-          <p className="text-center text-slate-600 mb-12 max-w-3xl mx-auto">
-            Des entreprises de toutes tailles nous font confiance pour sécuriser
-            leurs données.
-          </p>
-          <div className="grid grid-cols-3 sm:grid-cols-6 gap-8 items-center justify-center">
-            {[
-              { src: "/images/client1.png", alt: "Client 1" },
-              { src: "/images/client2.png", alt: "Client 2" },
-              { src: "/images/client3.png", alt: "Client 3" },
-              { src: "/images/client4.png", alt: "Client 4" },
-              { src: "/images/client5.png", alt: "Client 5" },
-              { src: "/images/client6.png", alt: "Client 6" },
-            ].map(({ src, alt }, idx) => (
-              <img
-                key={idx}
-                src={src}
-                alt={alt}
-                className="max-h-16 mx-auto filter grayscale opacity-70 hover:filter-none hover:opacity-100 transition duration-300"
-                loading="lazy"
-              /> 
-            ))} 
-          </div>
         </div>
       </section> 
 

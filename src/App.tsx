@@ -18,6 +18,9 @@ import SecurityApplicationsPage from './pages/SecurityApplicationsPage';
 import SecurityNetworksPage from './pages/SecurityNetworksPage';
 import BackupReplicationPage from './pages/BackupReplicationPage';
 import DataSecurityPage from './pages/DataSecurityPage';
+import SessionsPage from './pages/SessionsPage';
+import CertifyingTrainingPage from './pages/CertifyingTrainingPage';
+import CustomTrainingPage from './pages/CustomTrainingPage';
 
 const App: React.FC = () => {
   return (
@@ -39,6 +42,9 @@ const App: React.FC = () => {
         <Route path="/services/sauvegarde-replication" element={<BackupReplicationPage />} />
         <Route path="/services/securite-donnees" element={<DataSecurityPage />} />
         <Route path="/services/securite-applications" element={<SecurityApplicationsPage />} />
+        <Route path="/inscription" element={<SessionsPage />} />
+        <Route path="/services/formations-certifiantes" element={<CertifyingTrainingPage />} />
+        <Route path="/services/formations-sur-mesure" element={<CustomTrainingPage />} />
 
       </Routes>
 
