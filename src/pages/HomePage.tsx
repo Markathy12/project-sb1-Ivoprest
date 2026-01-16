@@ -1,13 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect, Suspense, lazy } from "react";
 import { motion } from "framer-motion";
+
+// IMPORTS CLASSIQUES (Statiques)
+// On garde le Hero et le ScrollToTop ici pour éviter les alertes de build et assurer la visibilité immédiate
 import HeroSection from "../components/HeroSection";
-import ActualitesSection from "../components/ActualitesSection";
-import Prestations from "../components/Prestations";
-import Testimonials from "../components/Testimonials";
-import Clients from "../components/Clients";
-import PartenairesTech from "../components/PartenairesTech";
-import Contact from "../components/Contact";
 import ScrollToTop from "../components/ScrollToTop";
+
+// IMPORTS DYNAMIQUES (Lazy Loading)
+const ActualitesSection = lazy(() => import("../components/ActualitesSection"));
+const Prestations = lazy(() => import("../components/Prestations"));
+const Testimonials = lazy(() => import("../components/Testimonials"));
+const Clients = lazy(() => import("../components/Clients"));
+const PartenairesTech = lazy(() => import("../components/PartenairesTech"));
+const Contact = lazy(() => import("../components/Contact"));
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -16,11 +21,12 @@ const fadeInUp = {
 
 const HomePage: React.FC = () => {
   useEffect(() => {
-    document.title = "Ivoprest | Protection & Sauvegarde de Données";
+    document.title = "Esay-corporation | Protection & Sauvegarde de Données";
   }, []);
 
   return (
-    <>
+    <Suspense fallback={<div className="min-h-screen bg-white" />}>
+      
       <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
         <HeroSection />
       </motion.div>
@@ -49,8 +55,9 @@ const HomePage: React.FC = () => {
         <Contact />
       </motion.div>
 
+      {/* Le ScrollToTop est rendu normalement sans Suspense spécifique car il est importé statiquement */}
       <ScrollToTop />
-    </>
+    </Suspense>
   );
 };
 
