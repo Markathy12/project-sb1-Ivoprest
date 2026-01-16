@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center">
                 <Phone size={16} className="text-primary-400 mr-2" />
-                <span>+33 (0)1 23 45 67 89</span>
+                <span>+225 (0)0 00 00 00 00</span>
               </div>
             </div>
 

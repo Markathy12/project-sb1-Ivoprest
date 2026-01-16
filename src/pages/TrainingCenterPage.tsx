@@ -206,11 +206,9 @@ const TrainingCenterPage: React.FC = () => {
         </div>
         
         {/* Lien de la carte */}
-        <a 
-            href={`/services/${item.title.toLowerCase().replace(/[^a-z0-9]/g, '-')}`}
-            className="absolute inset-0 z-10" // Rendre toute la carte cliquable
-            title={`Découvrir ${item.title}`}
-        ></a>
+        <a href={item.link} className="absolute inset-0 z-10" title={item.title}>
+      <span className="sr-only">Découvrir {item.title}</span>
+    </a>
       </motion.div>
     ))}
   </div>

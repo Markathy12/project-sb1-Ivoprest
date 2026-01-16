@@ -187,7 +187,7 @@ const Contact: React.FC = () => {
                   <MapPin className="text-blue-300 mt-1 mr-4" size={24} />
                   <div>
                     <h4 className="font-medium text-blue-200 mb-1">Adresse</h4>
-                    <p>123 Avenue de la Sécurité<br />75008 Paris, France</p>
+                    <p>Abidjan, Côte d'Ivoire</p>
                   </div>
                 </div>
                 
@@ -195,7 +195,7 @@ const Contact: React.FC = () => {
                   <Phone className="text-blue-300 mt-1 mr-4" size={24} />
                   <div>
                     <h4 className="font-medium text-blue-200 mb-1">Téléphone</h4>
-                    <p>+33 (0)1 23 45 67 89</p>
+                    <p>+225 (0)0 00 00 00 00</p>
                   </div>
                 </div>
                 
@@ -203,7 +203,7 @@ const Contact: React.FC = () => {
                   <Mail className="text-blue-300 mt-1 mr-4" size={24} />
                   <div>
                     <h4 className="font-medium text-blue-200 mb-1">Email</h4>
-                    <p>contact@securedata.com</p>
+                    <p>contact@esay.ci</p>
                   </div>
                 </div>
                 
@@ -225,8 +225,8 @@ const Contact: React.FC = () => {
           <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-50/80 to-indigo-50/80 backdrop-blur-sm">
             <div className="text-center">
               <MapPin size={48} className="text-blue-600 mx-auto mb-4" />
-              <p className="text-gray-600 text-lg">Carte interactive sera affichée ici</p>
-              <p className="text-gray-500">123 Avenue de la Sécurité, 75008 Paris, France</p>
+              <p className="text-gray-600 text-lg">Localisation en cours de mise à jour</p>
+              <p className="text-gray-500">Abidjan, Côte d'Ivoire</p>
             </div>
           </div>
         </div>

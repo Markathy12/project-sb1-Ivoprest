@@ -21,6 +21,7 @@ import DataSecurityPage from './pages/DataSecurityPage';
 import SessionsPage from './pages/SessionsPage';
 import CertifyingTrainingPage from './pages/CertifyingTrainingPage';
 import CustomTrainingPage from './pages/CustomTrainingPage';
+import WorkshopPage from './pages/WorkshopPage';
 
 const App: React.FC = () => {
   return (
@@ -45,6 +46,8 @@ const App: React.FC = () => {
         <Route path="/inscription" element={<SessionsPage />} />
         <Route path="/services/formations-certifiantes" element={<CertifyingTrainingPage />} />
         <Route path="/services/formations-sur-mesure" element={<CustomTrainingPage />} />
+        <Route path="/services/ateliers-pratiques" element={<WorkshopPage />} />
+
 
       </Routes>
 
