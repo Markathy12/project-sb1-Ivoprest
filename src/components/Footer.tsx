@@ -29,16 +29,21 @@ const Footer: React.FC = () => {
               Solutions de sécurité et de sauvegarde des données pour entreprises
               modernes.
             </p>
-            <div className="space-y-2">
-              <div className="flex items-center">
-                <Mail size={16} className="text-primary-400 mr-2" />
-                <span>contact@esay.ci</span>
-              </div>
-              <div className="flex items-center">
-                <Phone size={16} className="text-primary-400 mr-2" />
-                <span>+225 (0)0 00 00 00 00</span>
-              </div>
-            </div>
+            {/* Remplace la partie correspondante dans le Bloc 1 */}
+<div className="space-y-2">
+  <div className="flex items-center group">
+    <Mail size={16} className="text-primary-400 mr-2 group-hover:scale-110 transition-transform" />
+    <a href="mailto:infos@esay.ci" className="hover:text-primary-400 transition-colors">
+      infos@esay.ci
+    </a>
+  </div>
+  <div className="flex items-center group">
+    <Phone size={16} className="text-primary-400 mr-2 group-hover:scale-110 transition-transform" />
+    <a href="tel:+2250000000000" className="hover:text-primary-400 transition-colors">
+      +225 (0)0 00 00 00 00
+    </a>
+  </div>
+</div>
 
             {/* Réseaux sociaux */}
             <div className="flex space-x-3 mt-4">
