@@ -1,8 +1,6 @@
 import React, { useEffect, Suspense, lazy } from "react";
 import { motion } from "framer-motion";
 
-// IMPORTS CLASSIQUES (Statiques)
-// On garde le Hero et le ScrollToTop ici pour éviter les alertes de build et assurer la visibilité immédiate
 import HeroSection from "../components/HeroSection";
 import ScrollToTop from "../components/ScrollToTop";
 
@@ -55,7 +53,6 @@ const HomePage: React.FC = () => {
         <Contact />
       </motion.div>
 
-      {/* Le ScrollToTop est rendu normalement sans Suspense spécifique car il est importé statiquement */}
       <ScrollToTop />
     </Suspense>
   );
