@@ -7,7 +7,6 @@ import ScrollToTop from "../components/ScrollToTop";
 // IMPORTS DYNAMIQUES (Lazy Loading)
 const ActualitesSection = lazy(() => import("../components/ActualitesSection"));
 const Prestations = lazy(() => import("../components/Prestations"));
-const Testimonials = lazy(() => import("../components/Testimonials"));
 const Clients = lazy(() => import("../components/Clients"));
 const PartenairesTech = lazy(() => import("../components/PartenairesTech"));
 const Contact = lazy(() => import("../components/Contact"));
@@ -39,10 +38,6 @@ const HomePage: React.FC = () => {
 
       <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
         <ActualitesSection />
-      </motion.div>
-
-      <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-        <Testimonials />
       </motion.div>
 
       <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
