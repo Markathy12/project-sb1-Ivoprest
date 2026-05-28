@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <img src="/LOGO-ESAY.png" alt="Ivoprest" className="h-12 mb-4" />
+            <img src="/LOGO-ESAY.png" alt="ESAY corporation" className="h-12 mb-4" />
             <p className="text-gray-400 text-sm mb-4 leading-relaxed">
               Solutions de sécurité et de sauvegarde des données pour entreprises
               modernes.

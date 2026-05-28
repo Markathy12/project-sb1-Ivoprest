@@ -292,7 +292,7 @@ const SecurityNetworksPage: React.FC = () => {
               Sécurisez vos réseaux
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Ivoprest propose des solutions de sécurité réseau complètes pour
+              ESAY corporation propose des solutions de sécurité réseau complètes pour
               protéger vos infrastructures contre les cyberattaques, réduire les
               risques et assurer la continuité de vos services.
             </p>

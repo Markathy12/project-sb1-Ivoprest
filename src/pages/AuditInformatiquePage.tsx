@@ -74,7 +74,7 @@ export default function AuditInformatiquePage() {
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl font-semibold bg-white text-gray-900 hover:bg-gray-100 shadow"
             >
               Planifier un audit <ArrowRight className="w-4 h-4" />
@@ -211,10 +211,10 @@ export default function AuditInformatiquePage() {
       {/* FOOTER */}
       <footer className="w-full py-10 px-6 border-t bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-gray-500">© {new Date().getFullYear()} Ivoprest – Audit Informatique</p>
+          <p className="text-sm text-gray-500">© {new Date().getFullYear()} ESAY corporation – Audit Informatique</p>
           <div className="flex items-center gap-4 text-sm">
             <a href="#approche" className="hover:underline">Notre approche</a>
-            <a href="#contact" className="hover:underline">Contact</a>
+            <a href="/contact" className="hover:underline">Contact</a>
           </div>
         </div>
       </footer>

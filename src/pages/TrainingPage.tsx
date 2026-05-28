@@ -27,7 +27,7 @@ const TrainingPage: React.FC = () => {
 
   // Update page title when component mounts
   useEffect(() => {
-    document.title = 'Formation - Ivoprest | Formations Certifiantes en Cybersécurité';
+    document.title = 'Formation - ESAY corporation | Formations Certifiantes en Cybersécurité';
   }, []);
   
   const courses: Record<string, Course[]> = {
@@ -509,7 +509,7 @@ const TrainingPage: React.FC = () => {
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 text-center shadow-md border border-white/50">
                 <Mail className="w-8 h-8 text-blue-600 mx-auto mb-3" />
                 <h3 className="font-bold text-gray-900 mb-2">Email</h3>
-                <p className="text-gray-600">formation@ivoprest.com</p>
+                <p className="text-gray-600">formation@esay.ci</p>
               </div>
 
               <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 text-center shadow-md border border-white/50">

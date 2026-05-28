@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
         <div className="container mx-auto px-4 flex justify-between items-center">
           {/* Logo */}
           <button onClick={() => navigate("/")} className="focus:outline-none">
-            <img src="/LOGO-ESAY.png" alt="Ivoprest" className="h-12" />
+            <img src="/LOGO-ESAY.png" alt="ESAY corporation" className="h-12" />
           </button>
 
           {/* Desktop Navigation */}
@@ -157,7 +157,7 @@ const Navbar: React.FC = () => {
               </AnimatePresence>
             </div>
 
-            <Link to="#contact" className={linkClass}>
+            <Link to="/contact" className={linkClass}>
               Contact
             </Link>
 
@@ -281,7 +281,7 @@ const Navbar: React.FC = () => {
               </details>
 
               <Link
-                to="#contact"
+                to="/contact"
                 onClick={() => setIsOpen(false)}
                 className="text-gray-800 font-medium"
               >

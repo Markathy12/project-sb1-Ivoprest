@@ -5,7 +5,7 @@ import BackButton from '../components/BackButton';
 
 const DataProtectionPage: React.FC = () => {
   useEffect(() => {
-    document.title = 'Services de Protection des Données - Ivoprest | Sécurité & Conformité';
+    document.title = 'Services de Protection des Données - ESAY corporation | Sécurité & Conformité';
     window.scrollTo({ top: 0, behavior: 'auto' });
   }, []);
 

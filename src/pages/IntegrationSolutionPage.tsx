@@ -54,7 +54,7 @@ const IntegrationSolutionPage: React.FC = () => {
             Intégrez des solutions sécurisées, robustes et durables
           </h1>
           <p className="text-lg md:text-xl text-gray-200">
-            IVOPREST vous accompagne dans l’évolution de vos infrastructures grâce à son expertise technique et certifiée.
+            ESAY corporation vous accompagne dans l'évolution de vos infrastructures grâce à son expertise technique et certifiée.
           </p>
         </div>
       </FadeInUpSection>
@@ -89,7 +89,7 @@ const IntegrationSolutionPage: React.FC = () => {
                 <div className="p-4 rounded-xl bg-green-50 border-l-4 border-green-600 flex items-start gap-3 mt-4">
                   <span className="text-green-600 text-2xl">✅</span>
                   <p className="text-gray-800 dark:text-gray-100 font-semibold leading-relaxed">
-                    Solution Ivoprest : Pare-feux nouvelle génération, segmentation intelligente et supervision proactive <span className="font-bold">24/7</span>.
+                    Solution ESAY corporation : Pare-feux nouvelle génération, segmentation intelligente et supervision proactive <span className="font-bold">24/7</span>.
                   </p>
                 </div>
 
@@ -149,7 +149,7 @@ const IntegrationSolutionPage: React.FC = () => {
                 <div className="p-4 rounded-xl bg-green-50 border-l-4 border-green-600 flex items-start gap-3 mt-4">
                   <span className="text-green-600 text-2xl">✅</span>
                   <p className="text-gray-800 dark:text-gray-100 font-semibold leading-relaxed">
-                    Solution Ivoprest : Sauvegardes automatisées, réplication en temps réel et PRA testé régulièrement pour garantir continuité d’activité.
+                    Solution ESAY corporation : Sauvegardes automatisées, réplication en temps réel et PRA testé régulièrement pour garantir continuité d'activité.
                   </p>
                 </div>
 
@@ -186,7 +186,7 @@ const IntegrationSolutionPage: React.FC = () => {
                 <div className="p-4 rounded-xl bg-green-50 border-l-4 border-green-600 flex items-start gap-3 mt-4">
                   <span className="text-green-600 text-2xl">✅</span>
                   <p className="text-gray-800 dark:text-gray-100 font-semibold leading-relaxed">
-                    Solution Ivoprest : Chiffrement avancé, contrôle d’accès strict et supervision continue garantissent confidentialité et conformité.
+                    Solution ESAY corporation : Chiffrement avancé, contrôle d'accès strict et supervision continue garantissent confidentialité et conformité.
                   </p>
                 </div>
 
@@ -287,7 +287,7 @@ const IntegrationSolutionPage: React.FC = () => {
       {/* BROCHURE PDF */}
       <FadeInUpSection className="py-12 text-center">
         <Link
-          to="/docs/catalogue-ivoprest.pdf"
+          to="/docs/catalogue-esay.pdf"
           target="_blank"
           className="inline-flex items-center gap-3 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition"
         >
